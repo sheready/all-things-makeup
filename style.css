@@ -7,7 +7,7 @@ body{
 /* Color of the links BEFORE scroll */
 .navbar-scroll .nav-link,
 .navbar-scroll .navbar-toggler-icon {
-  color: black;
+  color: #644348;
 }
 
 /* Color of the links AFTER scroll */
@@ -31,8 +31,6 @@ body{
 /* style header */
 
 #header-text{
-    position: center;
-    margin-left:160px;
     font-size: 90px;
     font-weight: 600;
     font-family: 'Niconne', cursive;
