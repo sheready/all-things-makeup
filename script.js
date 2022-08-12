@@ -12,8 +12,9 @@ fetch('http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline').t
             <div class="card h-100">
                 <img src=${values.image_link} class="card-img-top" alt=${values.name}/>
                 <div class="card-body">
-                    <h5 class="card-title" id="product-name">${values.brand} : ${values.name}</h5>
-                    <p class="card-text">${values.price} </p>
+                    <h5 class="card-title" id="product-name" style="color:#674348"> ${values.name}</h5>
+                    <p class="card-text" style="font-weight:bold; color:#674348"> $ ${values.price} USD </p>
+                    <p class="card-text" style="color:#997782"> ${values.description}</p>
                 </div>
             </div>
         </div>`
