@@ -1,6 +1,6 @@
 // implementing the API
 
-fetch('http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline').then((data) => {
+fetch('https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline').then((data) => {
     // console.log(data);
     return data.json();
 }).then((completedata) => {
